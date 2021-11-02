@@ -4,7 +4,7 @@ public class Factorial {
 	
 	// Normal Loop Solution
 	public String factorial(int input) {
-		int count = 0;
+		int count = 1;
 		int calc = input;
 		while (calc > 1) {
 			count++;
